@@ -92,3 +92,52 @@ To clone the repository, run the following command:
 git clone https://github.com/Rohit61181/horizon.git
 cd horizon
 ```
+
+### Installation
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+### Set Up Environment Variables
+
+Create a new file named .env in the root of your project and add the following content:
+
+```plaintext
+#NEXT
+NEXT_PUBLIC_SITE_URL=
+
+#APPWRITE
+NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+NEXT_PUBLIC_APPWRITE_PROJECT=
+APPWRITE_DATABASE_ID=
+APPWRITE_USER_COLLECTION_ID=
+APPWRITE_BANK_COLLECTION_ID=
+APPWRITE_TRANSACTION_COLLECTION_ID=
+APPWRITE_SECRET=
+
+#PLAID
+PLAID_CLIENT_ID=
+PLAID_SECRET=
+PLAID_ENV=
+PLAID_PRODUCTS=
+PLAID_COUNTRY_CODES=
+
+#DWOLLA
+DWOLLA_KEY=
+DWOLLA_SECRET=
+DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
+DWOLLA_ENV=sandbox
+```
+
+Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Appwrite](#Appwrite), [Plaid](#Plaid) and [Dwolla](#Dwolla)
+
+### Running the Project
+
+To run the project, use the following command:
+
+```bash
+npm run dev
+```
