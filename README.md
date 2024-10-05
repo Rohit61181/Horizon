@@ -6,7 +6,6 @@
 3. [Features](#features)
 4. [Future Improvements](#future-improvements)
 5. [Quick Start](#quick-start)
-6. [License](#license)
 
 ## 🤖 Introduction
 Horizon is a financial SaaS platform designed to streamline bank account management and enable users to monitor and manage their finances in a secure, efficient, and user-friendly environment. Horizon provides multiple features like secure bank linking, real-time transaction tracking, and fund transfers, all while maintaining a seamless and responsive user experience across all devices. It leverages modern frameworks and APIs such as Plaid and Dwolla to ensure security and reliability in financial operations.
@@ -52,7 +51,6 @@ Enables users to transfer funds between accounts via **Dwolla**, requiring key d
 ### 👉 Responsiveness
 Ensures a seamless user experience across all device types, including desktops, tablets, and mobile devices, thanks to a fully responsive design using **TailwindCSS**.
 
----
 
 ## 🛠️ Future Improvements
 
@@ -73,7 +71,6 @@ Here are some potential future enhancements to improve functionality and user ex
 5. **Mobile App Version**  
    Develop a native mobile app to enhance accessibility and performance for users who prefer mobile over desktop web applications.
 
----
 
 ## 🤸 Quick Start
 
@@ -94,3 +91,4 @@ To clone the repository, run the following command:
 ```bash
 git clone https://github.com/Rohit61181/horizon.git
 cd horizon
+```
